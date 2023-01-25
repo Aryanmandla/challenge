@@ -1,0 +1,47 @@
+.container{
+    text-align: center;
+    width: 70%;
+    margin: auto;
+}
+.dice{
+    text-align: center;
+    display: inline-block;
+    /* margin:4rem; */
+}
+body{
+    background-color: #393E46;
+}
+h1{
+    margin:2.2rem;
+    font-size: 8rem;
+    color: #4ECCA3;
+    font-family:cursive;
+    text-shadow: 0.3rem 0 #232931;
+}
+img{
+    width:80%;
+}
+p{
+    font-size:2rem;
+    color:#4ECCA3;
+    font-family:'Indie Flower', cursive;
+}
+button{
+    display: flex;
+    margin:2rem auto;
+    font-size:2.5rem;
+    border-radius:3.6rem;
+    color:#4ECCA3;
+    background-color: #393E46;
+    font-family: cursive;
+}
+button:hover{
+    background-color: #4ECCA3;
+    color:black;
+}
+footer{
+    
+    text-align: center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:rgb(226, 190, 190);
+}

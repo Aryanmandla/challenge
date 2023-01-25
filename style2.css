@@ -1,0 +1,39 @@
+body{
+    background-color: #000;
+}
+.orb{
+    animation: spin 4s linear infinite;
+    width:100px;
+    height:100px;
+    margin:auto;
+    margin-top:140px;
+    border-radius:50%;
+    box-shadow:
+                inset 0 0 50px #fff,
+                inset 20px 0 60px violet,
+                inset -20px 0 60px blue,
+                inset 20px 0 200px violet,
+                inset -20px 0 200px blue,
+                0 0 50px #fff,
+                -10px 0 60px violet,
+                10px 0 60px blue;
+}
+.orb{
+   position:absolute;
+   margin:auto 2rem;
+
+}
+@keyframes spin{
+    /* 25%{
+        width:100px;
+        height:100px;
+    }
+    50%{
+        width:100px;
+        height:100px;
+    } */
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
